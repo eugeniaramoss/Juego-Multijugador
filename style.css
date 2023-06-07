@@ -1,0 +1,88 @@
+body {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+section {
+    width: 20%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+button {
+    margin-top: 400px;
+    margin-left: 35px;
+    font-size: 25px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(90, 90, 90);
+    color: white;
+}
+
+button:hover {
+    background-color: rgb(70, 70, 70);
+    transition-duration: 0.3s;
+}
+
+.container {
+    width: 50%;
+    height: 98vh;
+    margin-left: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 98px;
+    height: 100px;
+    border: 1px solid black;
+}
+
+.objetivo {
+    background-color: red;
+}
+
+.j1 {
+    background-color: aqua;
+}
+
+.j2 {
+    background-color: chartreuse;
+}
+
+.jugadores {
+    display: flex;
+}
+
+#j1 {
+    width: 130px;
+    height: 80px;
+    margin-left: 35px;
+    margin-right: 35px;
+    margin-bottom: 0px;
+}
+
+#j2 {
+    width: 120px;
+    height: 80px;
+    margin-left: 35px;
+    margin-right: 35px;
+    margin-bottom: 30px;
+}
+
+#contador1 {
+    margin-top: 300px;
+    margin-left: 35px;
+    font-size: 40px;
+    margin-bottom: 10px;
+    color: aqua;
+    ;
+}
+
+#contador2 {
+    margin-left: 35px;
+    font-size: 40px;
+    color: chartreuse;
+}
